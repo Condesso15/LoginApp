@@ -49,7 +49,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-
+    @Override
+    public void setFinishOnTouchOutside(boolean finish) {
+        super.setFinishOnTouchOutside(finish);
+    }
 
     public void ChamarEcra2(View view) {
 
